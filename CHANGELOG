@@ -1,0 +1,67 @@
+Version 2.2
+===========
+
+What's new:
+
+* Support for the new powerful jumbo attack modes : markov, prince, mask and loopback to
+  help you get better cracking results.
+* Support for opening many new password file formats. You can now convert to john format and
+  open them in Johnny with our built-in *2john support.
+* Export the password table view to CSV and colon separated password format.
+* Validate JtR path and show JtR version.
+* Various bug fixes
+
+Version 2.1
+===========
+
+What's new:
+
+* Ability to select/deselect individual hashes from being handled in a cracking
+  session
+* Search and Filter the Passwords table. All columns are searched against,
+  unless otherwise specified
+* Identify which hash format JtR will attack by default for a new session and
+  select and display it in the UI
+* Add field to specify rules for wordlist mode; jumbo only
+* Visually indicate NULL/EMPTY passwords and cracked hashes in the Passwords table
+* Added about Johnny widget; conforming to the OS X design guidelines
+
+What's changed:
+* App settings are now auto saved
+* Greatly improved how attack session options are being stored
+* General UI and usability improvements
+* Changed the default app icon; also OS X app bundle has an icon now
+* Updated a few other action icons
+* Various bug fixes
+
+Version 2.0
+===========
+Faster, leaner and better looking.
+
+Johnny got a reboot after more than 3 years of inactivity. It has been refactored
+from the ground up for better cross platform compatibility, multithreaded operation,
+upgraded looks, improved usability and extended JtR functionality coverage.
+
+Contributions from Mathieu Laprise as a student coder for GSoC 2015 with mentoring
+from Shinnok and Aleksey.
+
+What's new:
+
+* Fork and OpenMP attack preferences added
+* Manual password guessing via the Guess button
+* Hash type suggestion in the Passwords table
+* Session history and proper session attack preferences persistence
+* Ability to set environment variables for each session
+* The application is more efficient and uses proper threading for seamless operation
+* Proper translation support; with French translation added
+
+Previous to 2.0 we didn't maintain a proper CHANGELOG.
+
+Version 1.1
+===========
+Aleksey Cherepanov picked up development part of GSoC 2012, implementing the
+basic core functionality.
+
+Version 1.0
+===========
+Original design and concept by Shinnok; as a potential project for GSoC 2011.
